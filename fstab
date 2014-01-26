@@ -6,7 +6,7 @@
 UUID=82e12915-80f5-41f2-927b-1e87de24b1b6	/         	ext4      	rw,relatime	0 1
 
 # /dev/sda7
-UUID=79a5c6be-eb33-4248-888e-1a53fcc4fce1	/boot     	ext4      	ro,relatime,stripe=4	0 0
+#UUID=79a5c6be-eb33-4248-888e-1a53fcc4fce1	/boot     	ext4      	ro,relatime,stripe=4	0 0
 
 # /dev/sda8
 UUID=edc45a17-c098-4422-bcdd-7fbf7931cc14	/usr      	ext4      	rw,relatime	0 2
@@ -17,6 +17,4 @@ UUID=d09e536d-8b11-45d9-a051-d5906432b132	/var      	ext4      	rw,relatime	0 2
 # /dev/sda11
 UUID=598195cd-7383-49b5-9a79-28a4ee1cb64e	/home     	ext4      	rw,relatime	0 2
 
-/dev/sda2	/mnt/data	auto	defaults	0	0
-
-/dev/sda1	/mnt/windows	auto	ro	0	0
+/dev/sda2	/mnt/data	ntfs-3g	defaults	0	0
