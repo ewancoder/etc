@@ -2,19 +2,15 @@
 # /etc/fstab: static file system information
 #
 # <file system>	<dir>	<type>	<options>	<dump>	<pass>
-# /dev/sda10
-UUID=82e12915-80f5-41f2-927b-1e87de24b1b6	/         	ext4      	rw,relatime	0 1
+# /dev/sda6
+UUID=005436c8-bcea-4533-a20e-1762e47ca710	/         	ext4      	rw,relatime,data=ordered	0 1
+
+# /dev/sda5
+#UUID=b5f3cc6e-8091-4cea-97bf-06d7af4edca0	/boot     	ext4      	rw,relatime,stripe=4,data=ordered	0 2
 
 # /dev/sda7
-#UUID=79a5c6be-eb33-4248-888e-1a53fcc4fce1	/boot     	ext4      	ro,relatime,stripe=4	0 0
+UUID=0b5e36a6-1933-486f-bf9e-0f670232b163	/var      	ext4      	rw,relatime,data=ordered	0 2
 
 # /dev/sda8
-UUID=edc45a17-c098-4422-bcdd-7fbf7931cc14	/usr      	ext4      	rw,relatime	0 2
+UUID=458c3149-1e59-48c4-a4ea-5db8780158bb	/home     	ext4      	rw,relatime,data=ordered	0 2
 
-# /dev/sda9
-UUID=d09e536d-8b11-45d9-a051-d5906432b132	/var      	ext4      	rw,relatime	0 2
-
-# /dev/sda11
-UUID=598195cd-7383-49b5-9a79-28a4ee1cb64e	/home     	ext4      	rw,relatime	0 2
-
-/dev/sda2	/mnt/data	ntfs-3g	defaults	0	0
