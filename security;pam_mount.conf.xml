@@ -42,6 +42,6 @@
 <mkmountpoint enable="1" remove="true" />
 
 <!-- My volume definition -->
-<volume user="lft" fstype="fuse" path="encfs#/home/lft/Dropbox/Crypt" mountpoint="/home/lft/Pictures" />
+<volume user="lft" fstype="fuse" path="encfs#/home/lft/Copy/Crypt" mountpoint="/home/lft/Pictures" />
 
 </pam_mount>
