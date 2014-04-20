@@ -1,0 +1,11 @@
+[Unit]
+Description=Deluge Daemon
+After=network.target
+
+[Service]
+User=ewancoder
+Type=simple
+ExecStart=/usr/bin/deluged -d
+
+[Install]
+WantedBy=multi-user.target
