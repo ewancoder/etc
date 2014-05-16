@@ -5,3 +5,4 @@ pulse/*
 systemd/*
 X11/*
 udev/*
+hostapd/*
