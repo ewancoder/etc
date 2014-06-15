@@ -1,8 +1,1 @@
-bitlbee/*
-default/*
-grub.d/*
-pulse/*
-systemd/*
-X11/*
-udev/*
-hostapd/*
+*
