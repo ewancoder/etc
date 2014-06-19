@@ -1,1 +1,1 @@
-SUBSYSTEM=="net", ATTR{address}=="30:85:a9:38:c4:6e", NAME="lan"
+SUBSYSTEM=="net", ATTR{address}=="30:85:a9:38:c4:6e", NAME="wlan"
