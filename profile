@@ -4,7 +4,7 @@
 umask 022
 
 # Set our default path
-PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/home/ewancoder/bin"
+PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:$HOME/bin"
 export PATH
 
 # Load profiles from /etc/profile.d
