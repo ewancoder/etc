@@ -25,3 +25,6 @@ unset TERMCAP
 
 # Man is much better than us at figuring this out
 unset MANPATH
+
+# Run ssh-agent for all users
+eval `ssh-agent`
