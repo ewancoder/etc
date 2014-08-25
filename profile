@@ -4,7 +4,7 @@
 umask 022
 
 # Set our default path
-PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/home/ewancoder/bin"
+PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:$HOME/bin"
 export PATH
 
 # Load profiles from /etc/profile.d
@@ -25,3 +25,9 @@ unset TERMCAP
 
 # Man is much better than us at figuring this out
 unset MANPATH
+
+# Run ssh-agent for all users
+if [ -z "$SSH_AUTH_SOCK" ]; then
+    eval `ssh-agent -s`
+    ssh-add
+fi
