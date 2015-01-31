@@ -9,4 +9,4 @@ GRUB_GFXPAYLOAD_LINUX=keep
 GRUB_DISABLE_RECOVERY=true
 #GRUB_COLOR_NORMAL="light-blue/black"
 #GRUB_COLOR_HIGHLIGHT="light-green/lime"
-GRUB_THEME="/mnt/cloud/Mega/grub/theme.txt"
+GRUB_THEME="/mnt/cloud/Mega/Backup/Grub/theme.txt"
