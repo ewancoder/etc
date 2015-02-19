@@ -1,4 +1,0 @@
-ChallengeResponseAuthentication no
-UsePAM yes
-PrintMotd no
-ClientAliveInterval 120
