@@ -26,8 +26,5 @@ unset TERMCAP
 # Man is much better than us at figuring this out
 unset MANPATH
 
-# Run ssh-agent for all users
-if [ -z "$SSH_AUTH_SOCK" ]; then
-    eval `ssh-agent -s`
-    ssh-add
-fi
+# Launch keychain
+eval `keychain --eval --quick --quiet github`
