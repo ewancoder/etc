@@ -27,4 +27,4 @@ unset TERMCAP
 unset MANPATH
 
 # Launch keychain
-eval `keychain --eval --quick --quiet github`
+eval `keychain --eval --quick --quiet`
