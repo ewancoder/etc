@@ -1,5 +1,5 @@
 GRUB_CMDLINE_LINUX_DEFAULT="quiet"
-GRUB_DISTRIBUTOR=`awk -F '"' '/PRETTY_NAME/ {print $2}' /etc/*-release | sed 's/ Linux//g'`
+GRUB_DISTRIBUTOR="Arch"
 GRUB_GFXMODE=1360x768x32
 GRUB_GFXPAYLOAD_LINUX=keep #Keep screen resolution while loading linux
 GRUB_THEME="/mnt/cloud/Mega/Backup/Grub/theme.txt"
