@@ -1,4 +1,5 @@
 GRUB_CMDLINE_LINUX_DEFAULT="quiet iommu=pt"
+GRUB_PRELOAD_MODULES="lvm"
 GRUB_DISTRIBUTOR="Arch"
 GRUB_GFXMODE=1360x768x32
 GRUB_GFXPAYLOAD_LINUX=keep #Keep screen resolution while loading linux
