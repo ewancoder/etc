@@ -34,9 +34,8 @@ AURURL="https://aur4.archlinux.org"
 #AURVOTE=1
 
 # Build
-EXPORT=1           # Export to 1: EXPORTDIR or PKGDEST
-EXPORTDIR="/mnt/cloud/Dropbox/ArchPackages"
-                    # 2: pacman cache (as root)
+EXPORT=2
+
 #EXPORTSRC=0        # Need EXPORT>0 to be used
 #EXPORTDIR=""       # If empty, use makepkg's connfiguration (see makepkg.conf)
 
